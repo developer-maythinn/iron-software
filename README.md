@@ -4,6 +4,23 @@ Modern, semantic, responsive landing page built with **CodeIgniter 4**, **Bootst
 
 ---
 
+## 📸 Screenshots Performance Testing
+
+| Desktop View |
+| :--- | 
+| ![Desktop Screenshot](public/assets/screenshots/iron-lighthouse.png) | 
+| ![Desktop Screenshot](public/assets/screenshots/iron-software.test_.png) | 
+
+### Cross-Browser Testing
+
+| Browser     | Status  | Notes             |
+| ----------- | ------- | ----------------- |
+| Chrome/Edge | ✅ Full | All features work |
+| Firefox     | ✅ Full | All features work |
+| Safari      | ✅ Full | All features work |
+
+---
+
 ## 🚀 Quick Start (Laravel Herd)
 
 ### 1. **Setup with Laravel Herd**
@@ -101,54 +118,6 @@ writable/                        # Cache, logs, sessions (auto-created)
 ---
 
 ## 📝 Editing Content
-
-### Change Page Text/Headlines
-
-All content is in **`public/data/ironpdf.json`**. Edit this file to update the landing page:
-
-```json
-{
-  "meta": {
-    "title": "IronPDF for C++ Beta | Iron Software",
-    "description": "Join the IronPDF for C++ beta program..."
-  },
-  "hero": {
-    "eyebrow": "Building on the success of IronPDF for .NET",
-    "title": "Beta Software Program",
-    "product": "IronPDF for C++",
-    "status": "Coming soon",
-    "ctaText": "Sign up now",
-    "emailPlaceholder": "Enter email address"
-  },
-  "featureStrip": [
-    { "label": "Generate PDFs from HTML in C++" },
-    { "label": "Combine, split, and modify PDFs quickly in C++" },
-    { "label": "Extract text and images from PDFs using C++" }
-  ],
-  "story": {
-    "title": "IronPDF for C++",
-    "badge": "Coming soon",
-    "paragraphs": [...]
-  },
-  "why": {
-    "title": "Why make a C++ PDF Library",
-    "paragraphs": [...]
-  },
-  "earlyAccess": {
-    "title": "Early Access to C++ PDF Library",
-    "paragraphs": [...]
-  },
-  "programStatuses": [
-    { "state": "Released", "product": "IRONPDF for Java" },
-    { "state": "Coming Soon", "product": "IRONPDF for Python" },
-    { "state": "Coming Soon", "product": "IRONPDF for Node.JS" }
-  ],
-  "footerCta": {
-    "title": "Sign up to our Beta Program",
-    "ctaText": "Sign up now"
-  }
-}
-```
 
 **To update:**
 
@@ -283,22 +252,6 @@ lighthouse https://iron-software.test/ --view
 # - SEO: 100
 ```
 
-## 📸 Screenshots Performance Testing
-
-| Desktop View |
-| :--- | 
-| ![Desktop Screenshot](public/assets/screenshots/iron-lighthouse.png) | 
-| ![Desktop Screenshot](public/assets/screenshots/iron-software.test_.png) | 
-
-### Cross-Browser Testing
-
-| Browser     | Status  | Notes             |
-| ----------- | ------- | ----------------- |
-| Chrome/Edge | ✅ Full | All features work |
-| Firefox     | ✅ Full | All features work |
-| Safari      | ✅ Full | All features work |
-
----
 
 ## 📋 Checklist Before Deployment
 
