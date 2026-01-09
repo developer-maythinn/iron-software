@@ -215,11 +215,11 @@ input:-webkit-autofill {
 footer {
   background-color: var(--purple-A30);
 }
-footer h4 {
+footer .footer-title {
   font-size: 30px;
 }
 
-footer h4 span {
+footer .footer-title span {
   color: var(--purple-200);
 }
 @media (min-width: 768px) {
