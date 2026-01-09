@@ -331,25 +331,6 @@ lighthouse https://iron-software.test/ --view
 - **[QA_CHECKLIST.md](QA_CHECKLIST.md)** — Validation checklist for design, responsiveness, SEO, performance
 - **[CodeIgniter 4 Docs](https://codeigniter.com/user_guide/)** — Framework reference
 
----
-
-## ✨ Performance Metrics
-
-All images optimized with dimensions to prevent layout shift:
-
-```
-Header logo: 120×40px
-Hero logo: 60×60px
-Hero illustration: 400×500px
-Background patterns: 1200×800px
-Status logos: 40×40px
-```
-
-**Core Web Vitals Targets:**
-
-- LCP (Largest Contentful Paint): < 2.5s ✅
-- CLS (Cumulative Layout Shift): < 0.1 ✅
-- FID (First Input Delay): < 100ms ✅
 
 ---
 
