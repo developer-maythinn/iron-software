@@ -1,0 +1,39 @@
+CRITICAL - 2026-01-08 15:50:30 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: /]
+in APPPATH/Views/landing.php on line 202.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('landing', [], true)
+ 3 APPPATH/Controllers/Landing.php(15): view('landing', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Landing->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 /Applications/Herd.app/Contents/Resources/valet/server.php(167): require('/Users/mt/Herd/iron-software/public/index.php')
+CRITICAL - 2026-01-08 15:50:33 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: /]
+in APPPATH/Views/landing.php on line 202.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('landing', [], true)
+ 3 APPPATH/Controllers/Landing.php(15): view('landing', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Landing->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 /Applications/Herd.app/Contents/Resources/valet/server.php(167): require('/Users/mt/Herd/iron-software/public/index.php')
+CRITICAL - 2026-01-08 15:50:44 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: /]
+in APPPATH/Views/landing.php on line 202.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():223}()
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render('landing', [], true)
+ 3 APPPATH/Controllers/Landing.php(15): view('landing', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Landing->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 /Applications/Herd.app/Contents/Resources/valet/server.php(167): require('/Users/mt/Herd/iron-software/public/index.php')

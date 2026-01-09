@@ -1,0 +1,229 @@
+.custom-nav .nav-link,
+.custom-nav .navbar-nav .nav-link.show {
+  color: var(--text-primary);
+  font-family: var(--font-primary-bold);
+}
+.custom-nav img {
+  vertical-align: initial;
+}
+
+.hero-content .title {
+  margin-top: 2.5rem;
+}
+.hero-content p {
+  color: var(--purple-200);
+}
+
+.hero-img {
+}
+
+/* ************************************************ */
+
+.hero-form {
+  background: linear-gradient(to right, #8e608e 0%, #402640 71%, #371a34 100%);
+}
+
+.hero-form p {
+  color: var(--purple-200);
+  font-family: var(--font-primary-light);
+}
+.hero-form p b {
+  font-family: var(--font-primary-bold);
+  color: var(--text-primary);
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  /* max-width: 600px; */
+  margin: 0 auto;
+}
+
+.signup-input {
+  width: 100%;
+  padding: 16px 25px;
+  border-radius: 50px;
+  border: 1px solid #ddd;
+  background-color: white;
+  font-size: 16px;
+  outline: none;
+  color: var(--purple-600);
+}
+
+.signup-button {
+  width: 100%;
+  padding: 16px;
+  border-radius: 50px;
+  background: var(--red);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-primary-bold);
+}
+
+@media (min-width: 768px) {
+  .hero-form .input-wrapper {
+    height: 64px;
+  }
+  .input-wrapper {
+    flex-direction: row;
+    background-color: white;
+    border-radius: 100px;
+    outline: 3px solid var(--purple-200);
+    overflow: hidden;
+  }
+
+  .signup-input {
+    border: none;
+    background: transparent;
+  }
+
+  .signup-button {
+    width: 58%;
+    background: var(--red);
+    padding: 0;
+  }
+  input::placeholder {
+    color: var(--purple-600);
+  }
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+
+/* *************************** */
+.divider {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  height: 30px;
+}
+
+
+
+.iron-pdf-section img {
+  z-index: -1;
+}
+.iron-pdf-section .para-section {
+  background-color: rgba(23, 6, 23, 0.3);
+}
+.iron-heading-normal-light b {
+  font-family: "Gotham-Medium";
+}
+.coming-soon-badge {
+  width: 80px;
+  height: 80px;
+  background-color: #63c1a0;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  transform: rotate(15deg);
+  position: relative;
+  font-family: "Gotham-Black";
+  font-size: 12px;
+}
+
+.coming-soon-badge::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: #258b74;
+  right: -34px;
+  transform: rotate(273deg);
+  top: -54px;
+  width: 80px;
+  height: 80px;
+}
+.coming-soon-badge::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: #2c0e29;
+  border-radius: 0;
+  top: -60px;
+  right: -38px;
+  transform: rotate(303deg);
+  outline: none;
+  border: none;
+}
+
+.badge-container {
+  right: 0;
+  top: -70px;
+}
+@media (min-width: 768px) {
+  .badge-container {
+    right: 20%;
+    top: -100%;
+    overflow: hidden;
+  }
+}
+@media (min-width: 992px) {
+  .badge-container {
+    right: 29%;
+    top: -100%;
+    overflow: hidden;
+  }
+}
+
+/* ********************************** */
+
+.library-section {
+  background-color: var(--purple-900);
+}
+
+.filter {
+  transform: rotate(-45deg);
+  filter: blur(3rem);
+  position: absolute;
+  /* margin: auto; */
+  /* inset: 0; */
+  left: 6rem;
+  z-index: 1;
+}
+.filter1,
+.filter2 {
+  width: 80px;
+  height: 90px;
+  border-radius: 40%;
+}
+.filter1 {
+  background-color: #e01a59;
+}
+.filter2 {
+  background-color: #460a48;
+}
+
+.custom-badge-container {
+  background-color: #170617;
+  color: var(--purple-700);
+  border: 3px solid var(--purple-600);
+}
+
+.badge-bg-dark {
+  background-color: var(--purple-700);
+  color: var(--purple-200);
+}
+.bg-img {
+  z-index: -1;
+}
+
+/* *************************************** */
+footer {
+  background-color: var(--purple-A30);
+}
+footer h4 {
+  font-size: 30px;
+}
+
+footer h4 span {
+  color: var(--purple-200);
+}
+@media (min-width: 768px) {
+  footer .signup-button {
+    width: 42%;
+  }
+}

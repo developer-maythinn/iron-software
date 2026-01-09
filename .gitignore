@@ -1,0 +1,33 @@
+# --- CI4 Core ---
+/writable/*
+!/writable/index.html
+!/writable/.htaccess
+
+# --- Sensitive Data ---
+.env
+.public_key.pem
+.private_key.pem
+
+# --- Dependencies ---
+/vendor/
+
+# --- Environment Specific ---
+# Exclude the actual .env, but usually you keep env (the template)
+# so other developers know what keys to fill in.
+/env
+
+# --- Testing ---
+/tests/_support/_generated/
+/tests/_output/
+
+# --- IDE & OS Files ---
+.vscode/
+.idea/
+*.swp
+*.DS_Store
+Thumbs.db
+
+# --- User Uploads (If applicable) ---
+# If you store user-uploaded images in public/uploads, ignore them:
+public/uploads/*
+!public/uploads/index.html

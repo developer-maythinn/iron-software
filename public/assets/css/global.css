@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Gotham-Black";
+  src: url("../fonts/GOTHAM-BLACK.TTF");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url("../fonts/GOTHAM-BOLD.TTF");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham-Light";
+  src: url("../fonts/GOTHAM-LIGHT.TTF");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham-Medium";
+  src: url("../fonts/GOTHAM-MEDIUM.TTF");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Monaco";
+  src: url("../fonts/Monaco.ttf");
+  font-display: swap;
+}
+
+.primary-font-black {
+  font-family: "Gotham-Black";
+}
+.primary-font-bold {
+  font-family: "Gotham-Bold";
+}
+.primary-font-light {
+  font-family: "Gotham-Light";
+}
+.secondary-font {
+  font-family: "Monaco";
+}
+
+:root {
+  --purple-A30: rgba(23, 6, 23, 0.3);
+  --purple-200: #c6aac6;
+  --purple-300: #8f618f;
+  --purple-600: #431f43;
+  --purple-700: #331433;
+  --purple-800: #2c0f29;
+  --purple-500: #460a48;
+  --purple-900: #402640;
+
+  --red: #e01a59;
+
+  --text-primary: #ffffff;
+
+  --font-primary-bold: "Gotham-Bold", sans-serif;
+  --font-primary-black: "Gotham-Black", sans-serif;
+  --font-primary-light: "Gotham-Light", sans-serif;
+  --font-primary-medium: "Gotham-Medium", sans-serif;
+
+  --fs-11: 0.6875rem;
+  --fs-14: 0.875rem;
+  --fs-50: 3.125rem;
+  --fs-18: 1.125rem;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  /* font-family: var(--font-primary); */
+  background-color: var(--purple-800);
+  color: var(--text-primary);
+  overflow-x: hidden;
+}
+
+.iron-heading-1 {
+  font-size: var(--fs-50);
+  font-family: var(--font-primary-black);
+}
+
+.iron-heading-1 span,
+.iron-heading-2 span {
+  color: var(--purple-200);
+}
+.iron-heading-2 {
+  font-size: 2.5rem;
+  font-family: var(--font-primary-black);
+}
+.iron-heading-3 {
+  font-size: var(--fs-18);
+  font-family: var(--font-primary-bold);
+}
+.iron-heading-4 {
+  font-size: var(--fs-14);
+  font-family: var(--font-primary-medium);
+}
+.iron-heading-5 {
+  font-size: var(--fs-11);
+  font-family: var(--font-primary-bold);
+}
+.iron-heading-light {
+  font-size: var(--fs-14);
+  font-family: var(--font-primary-light);
+}
+.iron-heading-normal-light {
+  font-family: var(--font-primary-light);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary-black);
+}
+
+.custom-badge {
+  border-radius: 30px;
+  padding: 10px 19px;
+
+  display: flex;
+  align-items: center;
+  font-size: var(--fs-14);
+  font-family: var(--font-primary-bold);
+}
+
+.custom-badge-color-300 {
+  color: var(--purple-300);
+  background-color: var(--purple-200);
+  display: inline;
+}
+.custom-badge-color-700 {
+  color: var(--purple-700);
+  background-color: var(--purple-200);
+}
+.custom-badge-color-200 {
+  color: var(--purple-200);
+  background-color: var(--purple-700);
+}
