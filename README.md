@@ -283,6 +283,13 @@ lighthouse https://iron-software.test/ --view
 # - SEO: 100
 ```
 
+## 📸 Screenshots Performance Testing
+
+| Desktop View |
+| :--- | 
+| ![Desktop Screenshot](public/assets/screenshots/iron-lighthouse.png) | 
+| ![Desktop Screenshot](public/assets/screenshots/iron-software.test_.png) | 
+
 ### Cross-Browser Testing
 
 | Browser     | Status  | Notes             |
